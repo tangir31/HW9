@@ -1,0 +1,70 @@
+ body {
+    background-color: white;
+    height: 440px;
+    width: 860px;
+    width: 100%;
+  }
+  
+  .main-container {
+    margin-top: 30px;
+    margin-left: 30px
+  }
+  
+  .custom-box {
+    width: 800px;
+    height: 400px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    padding: 40px;
+    position: relative;
+  }
+  
+  .top-left {
+    color: blue;
+    position: absolute;
+    top: -8px;
+    left: 40px;
+    font-size: 40px;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    font-size: 40px; 
+    top: 80px;
+  }
+  
+
+  .apply-button {
+    border: 2px solid blue;
+    border-radius: 20px;
+    background-color: white;
+    color: blue;
+    padding: 4px 30px;
+    position: absolute;
+    bottom: 50px;
+  } 
+
+  
+
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    position: relative;
+    padding-left: 20px; /* Отступ для размещения черточки */
+    margin-bottom: 10px;
+    right: 40px;
+    top: 230px; /* Дополнительный отступ между пунктами */
+  }
+  
+  li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px; /* Длина черточки */
+    height: 2px; /* Толщина черточки */
+    background-color: blue; /* Цвет черточки */
+  }
