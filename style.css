@@ -52,10 +52,10 @@
   
   li {
     position: relative;
-    padding-left: 20px; /* Отступ для размещения черточки */
+    padding-left: 20px; 
     margin-bottom: 10px;
     right: 40px;
-    top: 230px; /* Дополнительный отступ между пунктами */
+    top: 230px; 
   }
   
   li:before {
@@ -64,7 +64,7 @@
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 15px; /* Длина черточки */
-    height: 2px; /* Толщина черточки */
-    background-color: blue; /* Цвет черточки */
+    width: 15px; 
+    height: 2px; 
+    background-color: blue;
   }
